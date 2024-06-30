@@ -3,7 +3,7 @@ function formatMessage(message, maxLength) {
   if (maxLength >= length) {
     return message;
   } else {
-    return message.slice(0, maxLength) + "...";
+    return message.slice(0, maxLength) + `...`;
   }
 }
 
